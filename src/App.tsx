@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Title } from "./pages/Titile";
 import { Input } from "./pages/Input";
 import "./App.css";
