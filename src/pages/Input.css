@@ -1,0 +1,66 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin-top: 20px;
+  width: 500px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: solid 1px;
+  font-size: 20px;
+}
+
+.qr-code-image-previewer {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  margin-right: 20px;
+  background-color: rgb(91, 202, 27);
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.download-button:hover {
+  background-color: rgb(79, 175, 24);
+}
+
+.download-button:active {
+  background-color: rgb(62, 138, 19);
+}
+
+.qr-code-container,
+.qr-code-scanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.url-text {
+  font-size: 20px;
+}
+
+.webcam-selector {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(91, 202, 27);
+  color: white;
+  border: none;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
